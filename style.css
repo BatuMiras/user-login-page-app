@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/25/2020/04/Things-never-knew-astronomy-e454e5d.jpg");
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.form-box {
+    width: 30rem;
+    height: 35rem;
+    position: relative;
+    margin-top: 18rem;
+    margin-left: 10rem;
+    padding: 3rem;
+    border: 1px solid black;
+    border-radius: 10rem;
+    text-align: center;
+    background-color: black;
+    opacity: 75%;
+    box-shadow: 0 0 10px 5px #fff;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 0 0 12px 5px #fff;
+    border-radius: 35px;
+}
+
+.toggle-btn {
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+    color: aliceblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #1c1c2e, #087fce);
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+.button-box button:nth-child(2){
+    color: #fff;
+}
+
+.login-input {
+    position: absolute;
+    margin-top: 1rem;
+    transition: 0.5s;
+}
+
+.input-group {
+    margin-top: 2rem;
+}
+
+.input-group input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10rem;
+    background: transparent;
+    color: aliceblue;
+    transition: 0.5s;
+    padding-left: 1rem;
+}
+
+.input-group input:hover {
+    width: 26rem;
+    height: 4rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid aliceblue;
+    border-radius: 10rem;
+    color: aliceblue;
+    font-size: 2rem;
+    background:  linear-gradient(to right, #1c1c2e, #087fce);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    font-size: 2.3rem;
+}
+
+.icon-group {
+    margin-top: 26rem;
+}
+
+.icon-group i {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon-group i:hover {
+    font-size: 4rem;
+}
+
+
+
